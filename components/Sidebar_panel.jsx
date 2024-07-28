@@ -16,7 +16,7 @@ const Sidebar_panel = (props) => {
 
     return(
         <section id="side-menu">
-             <h1 id="logo"><i className='bx bxs-paper-plane' ></i> Avion Bank</h1>
+             <h2 id="logo" style={{color: 'white'}}><i className='bx bxs-bank'></i> MNK Bank</h2>
             {menu}
         </section>
     )
