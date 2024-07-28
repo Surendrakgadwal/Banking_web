@@ -1,7 +1,7 @@
 const DATA = [
     {
-        email: "admin@admin.com",
-        password: "abc123",
+        email: "admin@gmail.com",
+        password: "123",
         fullname: "Admin Account",
         type: "Savings",
         number: "47290539480",
@@ -11,7 +11,7 @@ const DATA = [
     },
     {
         email: "amit@gmail.com",
-        password: "abc123",
+        password: "123",
         fullname: "Amit Sharma",
         type: "Savings",
         number: "47290539481",
@@ -21,7 +21,7 @@ const DATA = [
     },
     {
         email: "john@gmail.com",
-        password: "abc123",
+        password: "123",
         fullname: "John sen",
         type: "Savings",
         number: "47290539483",
@@ -31,7 +31,7 @@ const DATA = [
     },
     {
         email: "virat@gmail.com",
-        password: "abc123",
+        password: "123",
         fullname: "Virat sharma",
         type: "Savings",
         number: "47290539484",

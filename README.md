@@ -2,9 +2,16 @@
 
 # Banking_web
 
-Admin
-UserName: admin@admin.com
-password: abc123
+Admin Testing Account
+UserName: admin@gmail.com
+password: 123
+
+Client Testing Account
+UserName: amit@gmail.com
+password: 123
+
+Production work Sample
+https://main--banking-web11.netlify.app/
 
 =======
 
