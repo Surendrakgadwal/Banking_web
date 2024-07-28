@@ -1,15 +1,9 @@
 import React from "react";
-// import { ActionButtons } from "./ActionButtons";
 import { formatNumber } from "./Utils";
 
 const Account = (props) => {
     
-    const {type, accountNumber, balance, fullname, editingUser, setEditingUser, setDeleteUser, index, isAdmin, setEditModal} = props;
-    
-    // const action = isAdmin ? <ActionButtons index={index} 
-    //   editingUser={editingUser} 
-    //   setEditingUser={setEditingUser} 
-    //   setEditModal={setEditModal} setDeleteUser={setDeleteUser} /> : '';
+    const {type, accountNumber, balance, fullname} = props;
     
     return (
       <div className="account">
@@ -17,7 +11,6 @@ const Account = (props) => {
               <AccountHolder fullname={fullname} />
               <AccountType type={type} />
               <AccountNumber accountNumber={accountNumber} />
-              {/* {action} */}
           </div>
           <AccountBalance balance={formatNumber(balance)} />
       </div>

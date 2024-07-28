@@ -1,4 +1,3 @@
-// import { Account } from './Account';
 import { formatNumber } from './Utils';
 
 const MainClientContent = (props) => {
@@ -18,7 +17,6 @@ const MainClientContent = (props) => {
     return (
       <section id="main-content">
         <h1 className="main">My Account</h1>
-        {/* <Account type={user.type} accountNumber={user.number} balance={user.balance} fullname={user.fullname} /> */}
         <div id="transactions">
           <h2>Transactions</h2>
           <div id="transaction-div">

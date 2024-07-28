@@ -52,7 +52,6 @@ const TransactPage = (props) => {
             setNotif({message: `${capitalize(props.page)} failed.`, style: 'danger'});
         }
     }
-    // 'bx bx-up-arrow-alt'
     const icon = props.page === 'withdraw' ? 'bx bx-down-arrow-alt' : 'bx bx-up-arrow-alt';
 
     return (

@@ -3,7 +3,7 @@ import  Notification  from "./Notification";
 import { formatNumber, getDateToday } from "./Utils";
 
 const TransferPage = (props) => {
-    const {isClient, client, setClient} = props;
+    const {isClient, client} = props;
     const [users, setUsers] = useState(props.users); 
     const [receivers, setReceivers] = useState(users);
     const [sender, setSender] = useState( isClient ? client : {balance: 0});

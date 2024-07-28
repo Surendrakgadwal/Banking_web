@@ -3,7 +3,6 @@ import  Sidebar  from './Sidebar_panel';
 import  MainClientContent  from './MainClientContent';
 import { findAccount } from './Utils';
 import  TransferPage  from './TransferPage';
-// import { BudgetApp } from './BudgetApp';
 
 const User_Dashboard = (props) => {
     const { logout, client, setClient } = props;
