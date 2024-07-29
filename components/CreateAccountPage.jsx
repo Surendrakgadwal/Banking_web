@@ -88,7 +88,7 @@ const CreateAccountPage = (props) => {
 
                 <label htmlFor="account-type">Account Type</label>
                 <select name="accountType">
-                    <option value="Checking Account">Checking Account</option>
+                    {/* <option value="Checking Account">Checking Account</option> */}
                     <option value="Savings Accounts">Savings Account</option>
                 </select>
                 <hr />
