@@ -8,7 +8,7 @@ const CreateAccountPage = (props) => {
     }
     
     const [notif, setNotif] = useState({message: 'Create a new client account.', style: 'left'});
-    const [initialBalance, setInitialBalance] = useState(0);
+    const [initialBalance, setInitialBalance] = useState(10000);
     const [initialAccountNumber, setInitialAccountNumber] = useState(createRandomAccount());
 
     const createNewAccount = (user) => {
